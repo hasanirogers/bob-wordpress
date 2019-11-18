@@ -22,7 +22,7 @@ function add_states_taxonomy() {
         'states',
         array(''),
         array(
-            'hierarchical'    => false,
+            'hierarchical'    => true,
             'labels'          => $labels,
             'singular_name'   => 'State',
             'show_ui'         => true,
